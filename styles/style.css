@@ -347,11 +347,12 @@ button{
     
 }
 /* media query */
-@media screen and (max-width:576px) {
-    .navbar .links{
+@media screen and (max-width:768px) {
+    
+    /* .navbar .links{
         display: none;
         
-    }
+    } */
     .navbar ul li:last-child{
         margin-top: 20px;
     }
@@ -362,12 +363,68 @@ button{
         width: auto;
     }
     .banner-section{
-
+        margin-left: 20px;
     }
     .plant-card{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         width: auto;
+    }
+    .plant-content{
+        margin-left: 50px;
+    }
+    .plant-card{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section-two{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 40px;
+    }
+    .flower-store{
+        width: auto;
+    }
+    .flower-section{
+        margin-left: 60px;
+    }
+    .flower-badge{
+        display: none;
+    }
+    .latest-section{
+        margin-left: 20px;
+    }
+    .section-three{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 40px;
+    }
+    .zabo{
+        width: 367px;
+        height: 206px;
+    }
+    #zabo-title{
+        position: relative;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    #zabo-link{
+        position: absolute;
+        left:40%;
+        top: 50px;
+        color: white;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 16px; 
+    }
+    .section-four{
+        width: auto;
+    }
+    .section-five{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
     }
     
 }
